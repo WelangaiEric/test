@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+@import 'variables';
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monsterrat,sans-serif;
+}
+
+
+body{
+    background-color:$LVDGrayish-Blue;
+}
+h1{
+    color: $DGrayish-Blue;
+    a{
+        color: $VLGrayish-Blue;
+    }
+}
+button{
+    margin: $base-margin;
+    padding: $base-padding;
+    border-radius: $br;
+    border: $bt;
+
+}
